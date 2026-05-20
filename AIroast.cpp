@@ -60,7 +60,7 @@ int main() {
     string roast = replacePlaceholders(roasts[randomIndex], name, hobby, game, subject);
 
     // Output roast
-    cout << "\n🔥 Your AI Roast 🔥\n" << roast << endl;
+    cout << "\n Your AI Roast\n" << roast << endl;
 
     return 0;
 }
